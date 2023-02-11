@@ -1,7 +1,7 @@
 {
   "name": "github-actions-database-persistence",
   "version": "1.0.0",
-  "description": "Experiments of persisting CSV, SQLite and PostgreSQL databases on GitHub Actions CRON workflows via cache and commits",
+  "description": "Experiments with persisting CSV, SQLite and PostgreSQL databases on GitHub Actions CRON workflows via cache and commits",
   "license": "MIT",
   "author": "Karl Horky",
   "main": "index.js",
