@@ -11,7 +11,7 @@
     "@ts-safeql/eslint-plugin": "0.0.24",
     "@types/eslint": "8.21.0",
     "@types/node": "18.13.0",
-    "@types/prettier": "^2.7.2",
+    "@types/prettier": "2.7.2",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
     "@typescript-eslint/eslint-plugin": "5.51.0",
