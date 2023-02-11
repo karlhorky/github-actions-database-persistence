@@ -15,6 +15,15 @@ Caveats (from [Usage limits and eviction policy](https://docs.github.com/en/acti
 - Don't store any sensitive information (eg. access tokens or login credentials) in the cache - anyone with read access can create a pull request on a repository to access the contents of a cache
 - Caches from workflow runs are stored on GitHub-owned cloud storage
 
+### Persistence to Git commits on GitHub
+
+Use GitHub repository storage to store a database for smaller, longer-lived data
+
+Caveats (from [About large files on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github))
+
+- GitHub blocks files larger than 100MB
+- GitHub strongly recommends repositories smaller than 5GB
+
 ## Experiments
 
 ### Persist CSV Database to GitHub Actions Cache
@@ -39,3 +48,23 @@ The second run, restoring the existing records from the CSV file in the cache an
   <img src="persist-csv-database-to-cache-run-2.png" alt="" />
   <figcaption><em>A screenshot of the GitHub Actions interface, showing a second run of the workflow, where the cache is now found and restored successfully. Running the script shows both the existing record from the first run and the new record which has been added.</em></figcaption>
 </figure>
+
+### Persist CSV Database to Git commits on GitHub
+
+TODO
+
+### Persist SQLite Database to GitHub Actions Cache
+
+TODO
+
+### Persist SQLite Database to Git commits on GitHub
+
+TODO
+
+### Persist PostgreSQL Database to GitHub Actions Cache
+
+TODO
+
+### Persist PostgreSQL Database to Git commits on GitHub
+
+TODO
