@@ -1,12 +1,20 @@
 {
   "name": "github-actions-database-persistence",
   "version": "1.0.0",
-  "description": "Experiments with persisting CSV, SQLite and PostgreSQL databases from GitHub Actions CRON workflows via cache and commits",
+  "description": "GitHub Actions CRON workflow experiments with persisting CSV, SQLite and PostgreSQL databases to GitHub Actions cache and Git commits",
   "license": "MIT",
   "author": "Karl Horky",
-  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "csv": "^6.2.7",
+    "table": "^6.8.1",
+    "tsx": "3.12.3"
+  },
   "devDependencies": {
+    "@babel/core": "^7.20.12",
     "@babel/eslint-parser": "7.19.1",
+    "@babel/plugin-syntax-flow": "^7.18.6",
+    "@babel/plugin-transform-react-jsx": "^7.20.13",
     "@next/eslint-plugin-next": "13.1.6",
     "@ts-safeql/eslint-plugin": "0.0.24",
     "@types/eslint": "8.21.0",
