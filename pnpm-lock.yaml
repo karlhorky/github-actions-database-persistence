@@ -1,15 +1,5 @@
 lockfileVersion: 5.4
 
-overrides:
-  '@typescript-eslint/eslint-plugin': 5.51.0
-  '@typescript-eslint/parser': 5.51.0
-  '@typescript-eslint/utils': 5.51.0
-  eslint-plugin-import: 2.27.5
-  eslint-plugin-jest: 27.2.1
-  eslint-plugin-jsx-a11y: 6.7.1
-  eslint-plugin-react: 7.32.2
-  eslint-plugin-react-hooks: 4.6.0
-
 specifiers:
   '@babel/eslint-parser': 7.19.1
   '@next/eslint-plugin-next': 13.1.6
@@ -2875,7 +2865,7 @@ packages:
       eslint: 8.33.0
       eslint-plugin-flowtype: 8.0.3_eslint@8.33.0
       eslint-plugin-import: 2.27.5_kuqv7qxblf6fgldep4hddd7xwa
-      eslint-plugin-jest: 27.2.1_wusnydlfdg5bqnao5o66ou7q6e
+      eslint-plugin-jest: 25.7.0_wusnydlfdg5bqnao5o66ou7q6e
       eslint-plugin-jsx-a11y: 6.7.1_eslint@8.33.0
       eslint-plugin-react: 7.32.2_eslint@8.33.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.33.0
@@ -2994,6 +2984,27 @@ packages:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
+    dev: true
+
+  /eslint-plugin-jest/25.7.0_wusnydlfdg5bqnao5o66ou7q6e:
+    resolution: {integrity: sha512-PWLUEXeeF7C9QGKqvdSbzLOiLTx+bno7/HC9eefePfEb257QFHg7ye3dh80AZVkaa/RQsBB1Q/ORQvg2X7F0NQ==}
+    engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    peerDependencies:
+      '@typescript-eslint/eslint-plugin': ^4.0.0 || ^5.0.0
+      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+      jest: '*'
+    peerDependenciesMeta:
+      '@typescript-eslint/eslint-plugin':
+        optional: true
+      jest:
+        optional: true
+    dependencies:
+      '@typescript-eslint/eslint-plugin': 5.51.0_b635kmla6dsb4frxfihkw4m47e
+      '@typescript-eslint/experimental-utils': 5.51.0_4vsywjlpuriuw3tl5oq6zy5a64
+      eslint: 8.33.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: true
 
   /eslint-plugin-jest/27.2.1_wusnydlfdg5bqnao5o66ou7q6e:
