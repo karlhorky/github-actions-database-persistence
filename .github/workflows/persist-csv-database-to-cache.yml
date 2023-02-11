@@ -1,0 +1,26 @@
+name: Persist CSV database to cache
+on:
+  schedule:
+    - cron: 0 5 * * 5
+  workflow_dispatch:
+jobs:
+  persist-csv-database-to-cache:
+    name: Persist CSV database to cache
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: '7'
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+      - name: Install dependencies
+        run: pnpm install
+      - uses: actions/cache@v3
+        id: cache-csv-database
+        with:
+          path: data/persisted-to-cache/database.csv
+          key: csv-database
+      - run: pnpm tsx scripts/createCsvDatabaseRecords.ts data/persisted-to-cache/database.csv

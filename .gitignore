@@ -1,5 +1,6 @@
-node_modules/
-npm-debug.log*
 .DS_Store
 .eslintcache
 *.tsbuildinfo
+data/persisted-to-cache
+node_modules/
+npm-debug.log*
