@@ -6,6 +6,7 @@ specifiers:
   '@ts-safeql/eslint-plugin': 0.0.24
   '@types/eslint': 8.21.0
   '@types/node': 18.13.0
+  '@types/prettier': ^2.7.2
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
   '@typescript-eslint/eslint-plugin': 5.51.0
@@ -37,6 +38,7 @@ devDependencies:
   '@ts-safeql/eslint-plugin': 0.0.24_jjfunqllknxgp7b3eue2fxqbve
   '@types/eslint': 8.21.0
   '@types/node': 18.13.0
+  '@types/prettier': 2.7.2
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
   '@typescript-eslint/eslint-plugin': 5.51.0_b635kmla6dsb4frxfihkw4m47e
@@ -1682,6 +1684,10 @@ packages:
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
+    dev: true
+
+  /@types/prettier/2.7.2:
+    resolution: {integrity: sha512-KufADq8uQqo1pYKVIYzfKbJfBAc0sOeXqGbFaSpv8MRmC/zXgowNZmFcbngndGk922QDmOASEXUZCaY48gs4cg==}
     dev: true
 
   /@types/prop-types/15.7.5:
