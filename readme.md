@@ -35,21 +35,44 @@ Saves a CSV database to [GitHub Actions Cache](#persistence-to-github-actions-ca
 
 ### Example
 
-The first run, which adds a first message record to the CSV database file and saves the file to the GitHub Actions cache:
+Run 1:
+
+1. Does not find a cache
+2. Creates the CSV database file and adds a first message record
+3. Saves the file to the GitHub Actions cache
 
 <figure>
   <img src="persist-csv-database-to-cache-run-1.png" alt="" />
-  <figcaption><p align="center"><em>A screenshot of the GitHub Actions interface, showing a first run of the workflow, where the cache is not yet found. Running the script shows only the single new record in the CSV database.</em></p></figcaption>
+  <figcaption><p align="center"><em>A screenshot of run 1 in the GitHub Actions interface</em></p></figcaption>
 </figure>
 
 <br />
 <br />
 
-The second run, which restores the existing records from the CSV file in the cache, adds a second record and saves the file to the GitHub Actions cache:
+Run 2:
+
+1. Finds a cache with the CSV database file
+2. Adds a new record to the existing records
+3. Saves the file to the GitHub Actions cache
 
 <figure>
   <img src="persist-csv-database-to-cache-run-2.png" alt="" />
-  <figcaption><p align="center"><em>A screenshot of the GitHub Actions interface, showing a second run of the workflow, where the cache is now found and restored successfully. Running the script shows both the existing record from the first run and the new record which has been added.</em></p></figcaption>
+  <figcaption><p align="center"><em>A screenshot of run 2 in the GitHub Actions interface</em></p></figcaption>
+</figure>
+
+<br />
+<br />
+
+Run 3:
+
+1. Finds a cache with the CSV database file
+2. Removes expired records
+3. Adds a new record to the existing records
+4. Saves the file to the GitHub Actions cache
+
+<figure>
+  <img src="persist-csv-database-to-cache-run-3.png" alt="" />
+  <figcaption><p align="center"><em>A screenshot of run 3 in the GitHub Actions interface</em></p></figcaption>
 </figure>
 
 ### Persist CSV Database to Git commits on GitHub
@@ -61,21 +84,42 @@ Saves a CSV database to [Git commits on GitHub](#persistence-to-git-commits-on-g
 
 ### Example
 
-The first run, which adds a first message record to the CSV database file and saves the file to a new Git commit on GitHub:
+Run 1:
+
+1. Creates a CSV database file since no file exists
+2. Adds a new record
+3. Saves the file to a new Git commit on GitHub
 
 <figure>
   <img src="persist-csv-database-to-git-run-1.png" alt="" />
-  <figcaption><p align="center"><em>A screenshot of two browser windows, one window showing the GitHub Actions interface after the first run of the workflow and the other window showing the contents of the file after the commit from the first workflow run. The file contains the single new record added to the CSV database by the script.</em></p></figcaption>
+  <figcaption><p align="center"><em>A screenshot of run 1 in the GitHub Actions interface and the resulting committed file</em></p></figcaption>
 </figure>
 
 <br />
 <br />
 
-The second run, which adds a second record to the CSV file and saves the file to a new Git commit on GitHub:
+Run 2:
+
+1. Adds a new record to the existing records
+2. Saves the file to a new Git commit on GitHub
 
 <figure>
   <img src="persist-csv-database-to-git-run-2.png" alt="" />
-  <figcaption><p align="center"><em>A screenshot of two browser windows, one window showing the GitHub Actions interface after the second run of the workflow and the other window showing the contents of the file after the commit from the second workflow run. The file now contains two records, with the new record added to the CSV database by the script.</em></p></figcaption>
+  <figcaption><p align="center"><em>A screenshot of run 2 in the GitHub Actions interface and the resulting committed file</em></p></figcaption>
+</figure>
+
+<br />
+<br />
+
+Run 3:
+
+1. Removes expired records
+2. Adds a new record to the existing records
+3. Saves the file to a new Git commit on GitHub
+
+<figure>
+  <img src="persist-csv-database-to-git-run-3.png" alt="" />
+  <figcaption><p align="center"><em>A screenshot of run 3 in the GitHub Actions interface and the resulting committed file</em></p></figcaption>
 </figure>
 
 ### Persist SQLite Database to GitHub Actions Cache
