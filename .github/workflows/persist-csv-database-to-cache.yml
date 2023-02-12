@@ -1,7 +1,8 @@
 name: Persist CSV database to cache
 on:
   schedule:
-    - cron: 0 5 * * 5
+    # At 5am every day
+    - cron: 0 5 * * *
   workflow_dispatch:
 jobs:
   persist-csv-database-to-cache:
