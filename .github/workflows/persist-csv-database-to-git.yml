@@ -22,7 +22,7 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
-      - run: pnpm tsx scripts/createCsvDatabaseRecords.ts data/persisted-to-git/database.csv
+      - run: pnpm tsx scripts/updateCsvDatabaseRecords.ts data/persisted-to-git/database.csv
       - name: Commit files
         run: |
           git config user.email github-actions@github.com

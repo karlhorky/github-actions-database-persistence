@@ -9,7 +9,7 @@ const filePath = process.argv[2];
 if (!filePath) {
   console.error(`File path missing. Usage:
 
-  $ pnpm tsx scripts/createCsvDatabaseRecords.ts data/persisted-to-cache/database.csv
+  $ pnpm tsx scripts/updateCsvDatabaseRecords.ts data/persisted-to-cache/database.csv
 `);
   process.exit(1);
 }
@@ -36,6 +36,10 @@ try {
   // Create file with header if it doesn't exist
   writeFileSync(filePath, Object.keys(newRecords[0]!).join(',') + '\n');
 }
+
+// TODO: remove expired records
+// TODO: add expired records number to console.log message below
+// TODO: change filename
 
 appendFileSync(filePath, stringify(newRecords));
 

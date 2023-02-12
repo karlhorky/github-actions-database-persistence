@@ -31,7 +31,7 @@ Caveats (from [About large files on GitHub](https://docs.github.com/en/repositor
 Saves a CSV database to [GitHub Actions Cache](#persistence-to-github-actions-cache)
 
 - [GitHub Actions Workflow](https://github.com/karlhorky/github-actions-database-persistence/blob/main/.github/workflows/persist-csv-database-to-cache.yml)
-- [Script](https://github.com/karlhorky/github-actions-database-persistence/blob/main/scripts/createCsvDatabaseRecords.ts)
+- [Script](https://github.com/karlhorky/github-actions-database-persistence/blob/main/scripts/updateCsvDatabaseRecords.ts)
 
 ### Example
 
@@ -57,7 +57,7 @@ The second run, which restores the existing records from the CSV file in the cac
 Saves a CSV database to [Git commits on GitHub](#persistence-to-git-commits-on-github)
 
 - [GitHub Actions Workflow](https://github.com/karlhorky/github-actions-database-persistence/blob/main/.github/workflows/persist-csv-database-to-git.yml)
-- [Script](https://github.com/karlhorky/github-actions-database-persistence/blob/main/scripts/createCsvDatabaseRecords.ts)
+- [Script](https://github.com/karlhorky/github-actions-database-persistence/blob/main/scripts/updateCsvDatabaseRecords.ts)
 
 ### Example
 

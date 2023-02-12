@@ -24,4 +24,4 @@ jobs:
         with:
           path: data/persisted-to-cache/database.csv
           key: csv-database
-      - run: pnpm tsx scripts/createCsvDatabaseRecords.ts data/persisted-to-cache/database.csv
+      - run: pnpm tsx scripts/updateCsvDatabaseRecords.ts data/persisted-to-cache/database.csv
