@@ -23,5 +23,8 @@ jobs:
         id: cache-csv-database
         with:
           path: data/persisted-to-cache/database.csv
-          key: csv-database
+          key: csv-database-${{ hashFiles('data/persisted-to-cache/database.csv') }}
+          restore-keys: |
+            csv-database-
+            csv-database-${{ hashFiles('data/persisted-to-cache/database.csv') }}
       - run: pnpm tsx scripts/updateCsvDatabaseRecords.ts data/persisted-to-cache/database.csv
