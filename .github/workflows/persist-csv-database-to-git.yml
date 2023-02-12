@@ -25,6 +25,7 @@ jobs:
           git config user.email github-actions@github.com
           git config user.name github-actions
           git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+          git pull github main --ff-only
           git add data/persisted-to-git/database.csv
           git commit -m "Update CSV database with new records"
-          git push github
+          git push github main
