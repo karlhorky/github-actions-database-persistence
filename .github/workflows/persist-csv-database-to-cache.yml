@@ -23,8 +23,8 @@ jobs:
         id: cache-csv-database
         with:
           path: data/persisted-to-cache/database.csv
-          key: csv-database-${{ env.GITHUB_SHA }}
+          key: csv-database-${{ github.run_id }}
           restore-keys: |
             csv-database-
-            csv-database-${{ env.GITHUB_SHA }}
+            csv-database-${{ github.run_id }}
       - run: pnpm tsx scripts/updateCsvDatabaseRecords.ts data/persisted-to-cache/database.csv
