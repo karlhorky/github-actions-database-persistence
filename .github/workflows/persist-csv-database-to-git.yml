@@ -8,6 +8,9 @@ jobs:
   persist-csv-database-to-git-commit:
     name: Persist CSV database to Git commit
     runs-on: ubuntu-latest
+    permissions:
+      # Write permissions for $GITHUB_TOKEN (to commit and push)
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
@@ -24,8 +27,6 @@ jobs:
         run: |
           git config user.email github-actions@github.com
           git config user.name github-actions
-          git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
-          git pull github main --ff-only
           git add data/persisted-to-git/database.csv
           git commit -m "Update CSV database with new records"
-          git push github main
+          git push
