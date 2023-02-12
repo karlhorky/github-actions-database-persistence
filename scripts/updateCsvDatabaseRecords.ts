@@ -19,10 +19,8 @@ const newRecords = [
     id: '1',
     message: generateUniqueMessage(),
     expiryTimestamp:
-      // 90 seconds from now
-      new Date(Date.now() + 1000 * 90).toISOString(),
-    // Two weeks from now
-    // new Date(Date.now() + 1000 * 60 * 60 * 24 * 14).toISOString(),
+      // Two weeks from now
+      new Date(Date.now() + 1000 * 60 * 60 * 24 * 14).toISOString(),
   },
 ];
 
