@@ -1,4 +1,4 @@
-import { appendFileSync, readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import process from 'node:process';
 import { parse, stringify } from 'csv/sync';
 import { generateUniqueMessage } from '../util/messages.js';
@@ -33,18 +33,28 @@ try {
   });
   newRecords[0]!.id = String(parseInt(existingRecords.at(-1)!.id) + 1);
 } catch (error) {
-  // Create file with header if it doesn't exist
-  writeFileSync(filePath, Object.keys(newRecords[0]!).join(',') + '\n');
+  // Swallow error if file doesn't exist
 }
 
-// TODO: remove expired records
-// TODO: add expired records number to console.log message below
-// TODO: change filename
-
-appendFileSync(filePath, stringify(newRecords));
-
-console.log(
-  `Added ${newRecords.length} new records to the ${existingRecords.length} existing records in ${filePath}:\n`,
+const existingNonExpiredRecords = existingRecords.filter(
+  (record) => new Date(record.expiryTimestamp) > new Date(),
 );
 
-console.log(tableFromRecords([...existingRecords, ...newRecords]));
+const updatedRecords = [...existingNonExpiredRecords, ...newRecords];
+
+writeFileSync(filePath, stringify(updatedRecords, { header: true }));
+
+const removedRecordsCount =
+  existingRecords.length - existingNonExpiredRecords.length;
+
+console.log(
+  `Updated ${filePath}:
+${
+  !removedRecordsCount
+    ? ''
+    : `- ${removedRecordsCount} expired records removed\n`
+}- ${existingNonExpiredRecords.length} non-expired existing records kept
+- ${newRecords.length} new records added\n`,
+);
+
+console.log(tableFromRecords([...existingNonExpiredRecords, ...newRecords]));
