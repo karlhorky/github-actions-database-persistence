@@ -42,6 +42,9 @@ The first run, which saved a first message record to the CSV database file and s
   <figcaption><em>A screenshot of the GitHub Actions interface, showing a first run of the workflow, where the cache is not yet found. Running the script shows only the single new record in the CSV database.</em></figcaption>
 </figure>
 
+<br />
+<br />
+
 The second run, restoring the existing records from the CSV file in the cache and adding a second record:
 
 <figure>
