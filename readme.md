@@ -39,7 +39,7 @@ The first run, which saved a first message record to the CSV database file and s
 
 <figure>
   <img src="persist-csv-database-to-cache-run-1.png" alt="" />
-  <figcaption><em>A screenshot of the GitHub Actions interface, showing a first run of the workflow, where the cache is not yet found. Running the script shows only the single new record in the CSV database.</em></figcaption>
+  <figcaption><p align="center"><em>A screenshot of the GitHub Actions interface, showing a first run of the workflow, where the cache is not yet found. Running the script shows only the single new record in the CSV database.</em></p></figcaption>
 </figure>
 
 <br />
@@ -49,7 +49,7 @@ The second run, restoring the existing records from the CSV file in the cache an
 
 <figure>
   <img src="persist-csv-database-to-cache-run-2.png" alt="" />
-  <figcaption><em>A screenshot of the GitHub Actions interface, showing a second run of the workflow, where the cache is now found and restored successfully. Running the script shows both the existing record from the first run and the new record which has been added.</em></figcaption>
+  <figcaption><p align="center"><em>A screenshot of the GitHub Actions interface, showing a second run of the workflow, where the cache is now found and restored successfully. Running the script shows both the existing record from the first run and the new record which has been added.</em></p></figcaption>
 </figure>
 
 ### Persist CSV Database to Git commits on GitHub
