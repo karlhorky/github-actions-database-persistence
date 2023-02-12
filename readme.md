@@ -35,7 +35,7 @@ Saves a CSV database to [GitHub Actions Cache](#persistence-to-github-actions-ca
 
 ### Example
 
-The first run, which saved a first message record to the CSV database file and saved this to the GitHub Actions cache:
+The first run, which adds a first message record to the CSV database file and saves the file to the GitHub Actions cache:
 
 <figure>
   <img src="persist-csv-database-to-cache-run-1.png" alt="" />
@@ -45,7 +45,7 @@ The first run, which saved a first message record to the CSV database file and s
 <br />
 <br />
 
-The second run, restoring the existing records from the CSV file in the cache and adding a second record:
+The second run, which restores the existing records from the CSV file in the cache, adds a second record and saves the file to the GitHub Actions cache:
 
 <figure>
   <img src="persist-csv-database-to-cache-run-2.png" alt="" />
@@ -54,7 +54,29 @@ The second run, restoring the existing records from the CSV file in the cache an
 
 ### Persist CSV Database to Git commits on GitHub
 
-TODO
+Saves a CSV database to [Git commits on GitHub](#persistence-to-git-commits-on-github)
+
+- [GitHub Actions Workflow](https://github.com/karlhorky/github-actions-database-persistence/blob/main/.github/workflows/persist-csv-database-to-git.yml)
+- [Script](https://github.com/karlhorky/github-actions-database-persistence/blob/main/scripts/createCsvDatabaseRecords.ts)
+
+### Example
+
+The first run, which adds a first message record to the CSV database file and saves the file to a new Git commit on GitHub:
+
+<figure>
+  <img src="persist-csv-database-to-git-run-1.png" alt="" />
+  <figcaption><p align="center"><em>A screenshot of two browser windows, one window showing the GitHub Actions interface after the first run of the workflow and the other window showing the contents of the file after the commit from the first workflow run. The file contains the single new record added to the CSV database by the script.</em></p></figcaption>
+</figure>
+
+<br />
+<br />
+
+The second run, which adds a second record to the CSV file and saves the file to a new Git commit on GitHub:
+
+<figure>
+  <img src="persist-csv-database-to-git-run-2.png" alt="" />
+  <figcaption><p align="center"><em>A screenshot of two browser windows, one window showing the GitHub Actions interface after the second run of the workflow and the other window showing the contents of the file after the commit from the second workflow run. The file now contains two records, with the new record added to the CSV database by the script.</em></p></figcaption>
+</figure>
 
 ### Persist SQLite Database to GitHub Actions Cache
 
