@@ -27,10 +27,10 @@ const newRecords = [
 let existingRecords: typeof newRecords = [];
 
 try {
-  // Increment id in new records
   existingRecords = parse(readFileSync(filePath, 'utf8'), {
     columns: true,
   });
+  // Increment id in new records
   newRecords[0]!.id = String(parseInt(existingRecords.at(-1)!.id) + 1);
 } catch (error) {
   // Swallow error if file doesn't exist
