@@ -39,8 +39,6 @@
     "eslint-plugin-sonarjs": "0.18.0",
     "eslint-plugin-testing-library": "5.10.2",
     "eslint-plugin-unicorn": "46.0.0",
-    "prettier": "2.8.4",
-    "prettier-plugin-packagejson": "2.4.3",
     "typescript": "4.9.5"
   }
 }
