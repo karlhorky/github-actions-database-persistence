@@ -6,16 +6,18 @@
   "author": "Karl Horky",
   "type": "module",
   "dependencies": {
-    "csv": "^6.2.7",
-    "table": "^6.8.1",
+    "better-sqlite3": "8.2.0",
+    "csv": "6.2.7",
+    "table": "6.8.1",
     "tsx": "3.12.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.12",
+    "@babel/core": "7.20.12",
     "@babel/eslint-parser": "7.19.1",
-    "@babel/plugin-syntax-flow": "^7.18.6",
-    "@babel/plugin-transform-react-jsx": "^7.20.13",
+    "@babel/plugin-syntax-flow": "7.18.6",
+    "@babel/plugin-transform-react-jsx": "7.20.13",
     "@next/eslint-plugin-next": "13.2.4",
+    "@types/better-sqlite3": "7.6.3",
     "@types/eslint": "8.21.1",
     "@types/node": "18.15.0",
     "@types/prettier": "2.7.2",

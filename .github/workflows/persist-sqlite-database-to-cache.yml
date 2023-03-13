@@ -14,14 +14,6 @@ jobs:
       PGPASSWORD: upleveled
     steps:
       - uses: actions/checkout@v3
-      - run: |
-          # Add brews to the path
-          echo "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin" >> $GITHUB_PATH
-          # Setup brew environment
-          eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-          # Install sqld https://github.com/libsql/sqld
-          brew tap libsql/sqld
-          brew install sqld-beta
       - uses: pnpm/action-setup@v2
         with:
           version: '7'
@@ -31,3 +23,12 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
+      - uses: actions/cache@v3
+        id: cache-sqlite-database
+        with:
+          path: data/persisted-to-cache/database.db
+          key: sqlite-database-${{ github.run_id }}
+          restore-keys: |
+            sqlite-database-
+            sqlite-database-${{ github.run_id }}
+      - run: pnpm tsx scripts/updateSqliteDatabaseRecords.ts data/persisted-to-cache/database.db
