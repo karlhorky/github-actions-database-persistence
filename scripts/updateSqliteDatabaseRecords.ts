@@ -37,7 +37,7 @@ db.prepare(
     CREATE TABLE IF NOT EXISTS messages (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       message TEXT NOT NULL,
-      expiry_timestamp TEXT NOT NULL DEFAULT (strftime('%Y-%m-%d', 'now', '+2 weeks'))
+      expiry_timestamp TEXT DEFAULT (strftime('%Y-%m-%d', 'now', '+2 weeks'))
     )
   `,
 ).run();
