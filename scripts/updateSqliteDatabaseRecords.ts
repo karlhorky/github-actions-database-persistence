@@ -21,7 +21,7 @@ db.prepare(
     CREATE TABLE IF NOT EXISTS messages (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       message TEXT NOT NULL,
-      expiry_timestamp TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '-15 days'))
+      expiry_timestamp TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '+14 days'))
     )
   `,
 ).run();
@@ -29,10 +29,10 @@ db.prepare(
 const deletedRecords = db
   .prepare(
     `
-    DELETE FROM messages
-    WHERE expiry_timestamp < strftime('%Y-%m-%dT%H:%M:%fZ', 'now')
-    RETURNING *
-  `,
+      DELETE FROM messages
+      WHERE expiry_timestamp < strftime('%Y-%m-%dT%H:%M:%fZ', 'now')
+      RETURNING *
+    `,
   )
   .all();
 
