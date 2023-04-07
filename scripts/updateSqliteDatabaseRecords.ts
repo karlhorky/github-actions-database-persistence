@@ -13,6 +13,12 @@ if (!filePath) {
   process.exit(1);
 }
 
+type Message = {
+  id: number;
+  message: string;
+  expiry_timestamp: string;
+};
+
 const db = new Database(filePath);
 db.pragma('journal_mode = WAL');
 
@@ -53,7 +59,7 @@ for (const newRecord of newRecords) {
   insert.run(newRecord);
 }
 
-const allRecords = db.prepare('SELECT * FROM messages').all();
+const allRecords = db.prepare('SELECT * FROM messages').all() as Message[];
 
 console.log(
   `Updated ${filePath}:
@@ -65,4 +71,12 @@ ${
 - ${newRecords.length} new records added\n`,
 );
 
-console.log(tableFromRecords(allRecords));
+console.log(
+  tableFromRecords(
+    allRecords.map((record) => ({
+      id: String(record.id),
+      message: record.message,
+      expiry_timestamp: record.expiry_timestamp,
+    })),
+  ),
+);
