@@ -7,15 +7,15 @@
   "type": "module",
   "dependencies": {
     "better-sqlite3": "8.7.0",
-    "csv": "6.3.4",
+    "csv": "6.3.5",
     "table": "6.8.1",
     "tsx": "3.13.0"
   },
   "devDependencies": {
     "@types/better-sqlite3": "7.6.5",
-    "@types/node": "20.8.2",
+    "@types/node": "20.8.5",
     "@types/prettier": "2.7.3",
-    "eslint-config-upleveled": "5.0.5",
+    "eslint-config-upleveled": "5.1.0",
     "typescript": "5.2.2"
   }
 }
