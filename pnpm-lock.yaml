@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   better-sqlite3:
-    specifier: 8.7.0
-    version: 8.7.0
+    specifier: 9.0.0
+    version: 9.0.0
   csv:
     specifier: 6.3.5
     version: 6.3.5
@@ -1099,8 +1099,8 @@ packages:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
     dev: false
 
-  /better-sqlite3@8.7.0:
-    resolution: {integrity: sha512-99jZU4le+f3G6aIl6PmmV0cxUIWqKieHxsiF7G34CVFiE+/UabpYqkU0NJIkY/96mQKikHeBjtR27vFfs5JpEw==}
+  /better-sqlite3@9.0.0:
+    resolution: {integrity: sha512-lDxQ9qg/XuUHZG6xzrQaMHkNWl37t35/LPB/VJGV8DdScSuGFNfFSqgscXEd8UIuyk/d9wU8iaMxQa4If5Wqog==}
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
