@@ -8,6 +8,7 @@ jobs:
   persist-csv-database-to-git-commit:
     name: Persist CSV database to Git commit
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       # Write permissions for $GITHUB_TOKEN (to commit and push)
       contents: write

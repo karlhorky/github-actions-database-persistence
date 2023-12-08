@@ -5,6 +5,7 @@ jobs:
   lint-and-check-types:
     name: Lint and Check Types
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2

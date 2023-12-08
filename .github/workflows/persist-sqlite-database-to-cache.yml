@@ -7,6 +7,7 @@ jobs:
   persist-sqlite-database-to-cache:
     name: Persist SQLite database to cache
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     env:
       PGHOST: localhost
       PGDATABASE: upleveled
