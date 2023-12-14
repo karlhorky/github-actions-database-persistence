@@ -9,8 +9,8 @@ dependencies:
     specifier: 9.2.2
     version: 9.2.2
   csv:
-    specifier: 6.3.5
-    version: 6.3.5
+    specifier: 6.3.6
+    version: 6.3.6
   table:
     specifier: 6.8.1
     version: 6.8.1
@@ -1238,26 +1238,26 @@ packages:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
     dev: true
 
-  /csv-generate@4.3.0:
-    resolution: {integrity: sha512-7KdVId/2RgwPIKfWHaHtjBq7I9mgdi8ICzsUyIhP8is6UwpwVGGSC/aPnrZ8/SkgBcCP20lXrdPuP64Irs1VBg==}
+  /csv-generate@4.3.1:
+    resolution: {integrity: sha512-7YeeJq+44/I/O5N2sr2qBMcHZXhpfe38eh7DOFxyMtYO+Pir7kIfgFkW5MPksqKqqR6+/wX7UGoZm1Ot11151w==}
     dev: false
 
-  /csv-parse@5.5.2:
-    resolution: {integrity: sha512-YRVtvdtUNXZCMyK5zd5Wty1W6dNTpGKdqQd4EQ8tl/c6KW1aMBB1Kg1ppky5FONKmEqGJ/8WjLlTNLPne4ioVA==}
+  /csv-parse@5.5.3:
+    resolution: {integrity: sha512-v0KW6C0qlZzoGjk6u5tLmVfyZxNgPGXZsWTXshpAgKVGmGXzaVWGdlCFxNx5iuzcXT/oJN1HHM9DZKwtAtYa+A==}
     dev: false
 
-  /csv-stringify@6.4.4:
-    resolution: {integrity: sha512-NDshLupGa7gp4UG4sSNIqwYJqgSwvds0SvENntxoVoVvTzXcrHvd5gG2MWpbRpSNvk59dlmIe1IwNvSxN4IVmg==}
+  /csv-stringify@6.4.5:
+    resolution: {integrity: sha512-SPu1Vnh8U5EnzpNOi1NDBL5jU5Rx7DVHr15DNg9LXDTAbQlAVAmEbVt16wZvEW9Fu9Qt4Ji8kmeCJ2B1+4rFTQ==}
     dev: false
 
-  /csv@6.3.5:
-    resolution: {integrity: sha512-Y+KTCAUljtq2JaGP42ZL1bymqlU5BkfnFpZhxRczGFDZox2VXhlRHnG5DRshyUrwQzmCdEiLjSqNldCfm1OVCA==}
+  /csv@6.3.6:
+    resolution: {integrity: sha512-jsEsX2HhGp7xiwrJu5srQavKsh+HUJcCi78Ar3m4jlmFKRoTkkMy7ZZPP+LnQChmaztW+uj44oyfMb59daAs/Q==}
     engines: {node: '>= 0.1.90'}
     dependencies:
-      csv-generate: 4.3.0
-      csv-parse: 5.5.2
-      csv-stringify: 6.4.4
-      stream-transform: 3.2.10
+      csv-generate: 4.3.1
+      csv-parse: 5.5.3
+      csv-stringify: 6.4.5
+      stream-transform: 3.3.0
     dev: false
 
   /damerau-levenshtein@1.0.8:
@@ -3177,8 +3177,8 @@ packages:
     resolution: {integrity: sha512-rr+VVSXtRhO4OHbXUiAF7xW3Bo9DuuF6C5jH+q/x15j2jniycgKbxU09Hr0WqlSLUs4i4ltHGXqTe7VHclYWyA==}
     dev: true
 
-  /stream-transform@3.2.10:
-    resolution: {integrity: sha512-Yu+x7zcWbWdyB0Td8dFzHt2JEyD6694CNq2lqh1rbuEBVxPtjb/GZ7xDnZcdYiU5E/RtufM54ClSEOzZDeWguA==}
+  /stream-transform@3.3.0:
+    resolution: {integrity: sha512-pG1NeDdmErNYKtvTpFayrEueAmL0xVU5wd22V7InGnatl4Ocq3HY7dcXIKj629kXvYQvglCC7CeDIGAlx1RNGA==}
     dev: false
 
   /string-width@4.2.3:
