@@ -24,7 +24,7 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         id: cache-sqlite-database
         with:
           path: data/persisted-to-cache/database.db
