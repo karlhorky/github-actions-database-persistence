@@ -25,12 +25,12 @@ devDependencies:
   '@types/node':
     specifier: 20.11.30
     version: 20.11.30
-  '@types/prettier':
-    specifier: 3.0.0
-    version: 3.0.0
   eslint-config-upleveled:
     specifier: 7.8.2
     version: 7.8.2(@babel/core@7.21.8)(@types/eslint@8.56.6)(@types/node@20.11.30)(@types/react-dom@18.2.22)(@types/react@18.2.67)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.3)
+  prettier:
+    specifier: 3.2.5
+    version: 3.2.5
   typescript:
     specifier: 5.4.3
     version: 5.4.3
@@ -654,13 +654,6 @@ packages:
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
-    dev: true
-
-  /@types/prettier@3.0.0:
-    resolution: {integrity: sha512-mFMBfMOz8QxhYVbuINtswBp9VL2b4Y0QqYHwqLz3YbgtfAcat2Dl6Y1o4e22S/OVE6Ebl9m7wWiMT2lSbAs1wA==}
-    deprecated: This is a stub types definition. prettier provides its own type definitions, so you do not need this installed.
-    dependencies:
-      prettier: 3.2.5
     dev: true
 
   /@types/prop-types@15.7.5:
