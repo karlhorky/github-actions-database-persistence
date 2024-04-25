@@ -9,10 +9,10 @@
     "better-sqlite3": "9.5.0",
     "csv": "6.3.8",
     "table": "6.8.2",
-    "tsx": "4.7.2"
+    "tsx": "4.7.3"
   },
   "devDependencies": {
-    "@types/better-sqlite3": "7.6.9",
+    "@types/better-sqlite3": "7.6.10",
     "@types/node": "20.12.7",
     "eslint-config-upleveled": "8.0.1",
     "prettier": "3.2.5",
