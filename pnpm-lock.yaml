@@ -15,13 +15,13 @@ dependencies:
     specifier: 6.8.2
     version: 6.8.2
   tsx:
-    specifier: 4.7.2
-    version: 4.7.2
+    specifier: 4.7.3
+    version: 4.7.3
 
 devDependencies:
   '@types/better-sqlite3':
-    specifier: 7.6.9
-    version: 7.6.9
+    specifier: 7.6.10
+    version: 7.6.10
   '@types/node':
     specifier: 20.12.7
     version: 20.12.7
@@ -621,8 +621,8 @@ packages:
     dev: true
     optional: true
 
-  /@types/better-sqlite3@7.6.9:
-    resolution: {integrity: sha512-FvktcujPDj9XKMJQWFcl2vVl7OdRIqsSRX9b0acWwTmwLK9CF2eqo/FRcmMLNpugKoX/avA6pb7TorDLmpgTnQ==}
+  /@types/better-sqlite3@7.6.10:
+    resolution: {integrity: sha512-TZBjD+yOsyrUJGmcUj6OS3JADk3+UZcNv3NOBqGkM09bZdi28fNZw8ODqbMOLfKCu7RYCO62/ldq1iHbzxqoPw==}
     dependencies:
       '@types/node': 20.12.7
     dev: true
@@ -3643,8 +3643,8 @@ packages:
       typescript: 5.4.5
     dev: true
 
-  /tsx@4.7.2:
-    resolution: {integrity: sha512-BCNd4kz6fz12fyrgCTEdZHGJ9fWTGeUzXmQysh0RVocDY3h4frk05ZNCXSy4kIenF7y/QnrdiVpTsyNRn6vlAw==}
+  /tsx@4.7.3:
+    resolution: {integrity: sha512-+fQnMqIp/jxZEXLcj6WzYy9FhcS5/Dfk8y4AtzJ6ejKcKqmfTF8Gso/jtrzDggCF2zTU20gJa6n8XqPYwDAUYQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
