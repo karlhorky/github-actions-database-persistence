@@ -9,25 +9,25 @@ dependencies:
     specifier: 9.6.0
     version: 9.6.0
   csv:
-    specifier: 6.3.8
-    version: 6.3.8
+    specifier: 6.3.9
+    version: 6.3.9
   table:
     specifier: 6.8.2
     version: 6.8.2
   tsx:
-    specifier: 4.9.3
-    version: 4.9.3
+    specifier: 4.10.3
+    version: 4.10.3
 
 devDependencies:
   '@types/better-sqlite3':
     specifier: 7.6.10
     version: 7.6.10
   '@types/node':
-    specifier: 20.12.11
-    version: 20.12.11
+    specifier: 20.12.12
+    version: 20.12.12
   eslint-config-upleveled:
     specifier: 8.1.0
-    version: 8.1.0(@babel/core@7.21.8)(@types/eslint@8.56.10)(@types/node@20.12.11)(@types/react-dom@18.3.0)(@types/react@18.3.1)(eslint@8.57.0)(globals@15.2.0)(typescript@5.4.5)
+    version: 8.1.0(@babel/core@7.21.8)(@types/eslint@8.56.10)(@types/node@20.12.12)(@types/react-dom@18.3.0)(@types/react@18.3.1)(eslint@8.57.0)(globals@15.2.0)(typescript@5.4.5)
   prettier:
     specifier: 3.2.5
     version: 3.2.5
@@ -624,7 +624,7 @@ packages:
   /@types/better-sqlite3@7.6.10:
     resolution: {integrity: sha512-TZBjD+yOsyrUJGmcUj6OS3JADk3+UZcNv3NOBqGkM09bZdi28fNZw8ODqbMOLfKCu7RYCO62/ldq1iHbzxqoPw==}
     dependencies:
-      '@types/node': 20.12.11
+      '@types/node': 20.12.12
     dev: true
 
   /@types/eslint@8.56.10:
@@ -646,8 +646,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.12.11:
-    resolution: {integrity: sha512-vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==}
+  /@types/node@20.12.12:
+    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1305,26 +1305,26 @@ packages:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
     dev: true
 
-  /csv-generate@4.4.0:
-    resolution: {integrity: sha512-geM01acNPZ0wr4/9sKev5fCzFG/tsc/NbuFWrhLc47M1zQyUdEJH65+cxTLIVafEwhBjIYwQ7fdOL9roBqVltQ==}
+  /csv-generate@4.4.1:
+    resolution: {integrity: sha512-O/einO0v4zPmXaOV+sYqGa02VkST4GP5GLpWBNHEouIU7pF3kpGf3D0kCCvX82ydIY4EKkOK+R8b1BYsRXravg==}
     dev: false
 
-  /csv-parse@5.5.5:
-    resolution: {integrity: sha512-erCk7tyU3yLWAhk6wvKxnyPtftuy/6Ak622gOO7BCJ05+TYffnPCJF905wmOQm+BpkX54OdAl8pveJwUdpnCXQ==}
+  /csv-parse@5.5.6:
+    resolution: {integrity: sha512-uNpm30m/AGSkLxxy7d9yRXpJQFrZzVWLFBkS+6ngPcZkw/5k3L/jjFuj7tVnEpRn+QgmiXr21nDlhCiUK4ij2A==}
     dev: false
 
-  /csv-stringify@6.4.6:
-    resolution: {integrity: sha512-h2V2XZ3uOTLilF5dPIptgUfN/o2ia/80Ie0Lly18LAnw5s8Eb7kt8rfxSUy24AztJZas9f6DPZpVlzDUtFt/ag==}
+  /csv-stringify@6.5.0:
+    resolution: {integrity: sha512-edlXFVKcUx7r8Vx5zQucsuMg4wb/xT6qyz+Sr1vnLrdXqlLD1+UKyWNyZ9zn6mUW1ewmGxrpVwAcChGF0HQ/2Q==}
     dev: false
 
-  /csv@6.3.8:
-    resolution: {integrity: sha512-gRh3yiT9bHBA5ka2yOpyFqAVu/ZpwWzajMUR/es0ljevAE88WyHBuMUy7jzd2o5j6LYQesEO/AyhbQ9BhbDXUA==}
+  /csv@6.3.9:
+    resolution: {integrity: sha512-eiN+Qu8NwSLxZYia6WzB8xlX/rAQ/8EgK5A4dIF7Bz96mzcr5dW1jlcNmjG0QWySWKfPdCerH3RQ96ZqqsE8cA==}
     engines: {node: '>= 0.1.90'}
     dependencies:
-      csv-generate: 4.4.0
-      csv-parse: 5.5.5
-      csv-stringify: 6.4.6
-      stream-transform: 3.3.1
+      csv-generate: 4.4.1
+      csv-parse: 5.5.6
+      csv-stringify: 6.5.0
+      stream-transform: 3.3.2
     dev: false
 
   /damerau-levenshtein@1.0.8:
@@ -1659,7 +1659,7 @@ packages:
       parse-gitignore: 2.0.0
     dev: true
 
-  /eslint-config-upleveled@8.1.0(@babel/core@7.21.8)(@types/eslint@8.56.10)(@types/node@20.12.11)(@types/react-dom@18.3.0)(@types/react@18.3.1)(eslint@8.57.0)(globals@15.2.0)(typescript@5.4.5):
+  /eslint-config-upleveled@8.1.0(@babel/core@7.21.8)(@types/eslint@8.56.10)(@types/node@20.12.12)(@types/react-dom@18.3.0)(@types/react@18.3.1)(eslint@8.57.0)(globals@15.2.0)(typescript@5.4.5):
     resolution: {integrity: sha512-pdn4vBCPGi1umfwIeFpegJkY5/VsY8pEX//PQZw9L7202XwffoDROy67CdXd4GxZDxBsrfvMudt6oMkAAV8WLw==}
     engines: {node: '>=20.9.0'}
     hasBin: true
@@ -1675,7 +1675,7 @@ packages:
       '@babel/eslint-parser': 7.24.5(@babel/core@7.21.8)(eslint@8.57.0)
       '@next/eslint-plugin-next': 14.2.3
       '@types/eslint': 8.56.10
-      '@types/node': 20.12.11
+      '@types/node': 20.12.12
       '@types/react': 18.3.1
       '@types/react-dom': 18.3.0
       '@typescript-eslint/eslint-plugin': 7.8.0(@typescript-eslint/parser@7.8.0)(eslint@8.57.0)(typescript@5.4.5)
@@ -1726,7 +1726,7 @@ packages:
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@7.8.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.8.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       fast-glob: 3.3.1
-      get-tsconfig: 4.7.3
+      get-tsconfig: 4.7.5
       is-core-module: 2.13.1
       is-glob: 4.0.3
     transitivePeerDependencies:
@@ -2224,8 +2224,8 @@ packages:
       get-intrinsic: 1.2.4
     dev: true
 
-  /get-tsconfig@4.7.3:
-    resolution: {integrity: sha512-ZvkrzoUA0PQZM6fy6+/Hce561s+faD1rsNwhnO5FelNjyy7EMGJ3Rz1AQ8GYDWjhRs/7dBLOEJvhK8MiEJOAFg==}
+  /get-tsconfig@4.7.5:
+    resolution: {integrity: sha512-ZCuZCnlqNzjb4QprAzXKdpp/gh6KTxSJuw3IBsPnV/7fV4NxC9ckB+vPTt8w7fJA0TaSD7c55BR47JD6MEDyDw==}
     dependencies:
       resolve-pkg-maps: 1.0.0
 
@@ -3433,8 +3433,8 @@ packages:
     resolution: {integrity: sha512-rr+VVSXtRhO4OHbXUiAF7xW3Bo9DuuF6C5jH+q/x15j2jniycgKbxU09Hr0WqlSLUs4i4ltHGXqTe7VHclYWyA==}
     dev: true
 
-  /stream-transform@3.3.1:
-    resolution: {integrity: sha512-BL8pv9QL8Ikd11oZwlRDp1qYMhGR0i50zI9ltoijKGc4ubQWal/Rc4p6SYJp1TBOGpE0uAGchwbxOZ1ycwTuqQ==}
+  /stream-transform@3.3.2:
+    resolution: {integrity: sha512-v64PUnPy9Qw94NGuaEMo+9RHQe4jTBYf+NkTtqkCgeuiNo8NlL0LtLR7fkKWNVFtp3RhIm5Dlxkgm5uz7TDimQ==}
     dev: false
 
   /string-width@4.2.3:
@@ -3643,13 +3643,13 @@ packages:
       typescript: 5.4.5
     dev: true
 
-  /tsx@4.9.3:
-    resolution: {integrity: sha512-czVbetlILiyJZI5zGlj2kw9vFiSeyra9liPD4nG+Thh4pKTi0AmMEQ8zdV/L2xbIVKrIqif4sUNrsMAOksx9Zg==}
+  /tsx@4.10.3:
+    resolution: {integrity: sha512-f0g60aFSVRVkzcQkEflh8fPLRfmt+HJHgWi/plG5UgvVaV+9TcpOwJ0sZJSACXmwmjMPg9yQR0BhTLbhkfV2uA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
       esbuild: 0.20.2
-      get-tsconfig: 4.7.3
+      get-tsconfig: 4.7.5
     optionalDependencies:
       fsevents: 2.3.3
     dev: false
