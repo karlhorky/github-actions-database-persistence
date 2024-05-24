@@ -32,7 +32,7 @@ try {
   });
   // Increment id in new records
   newRecords[0]!.id = String(parseInt(existingRecords.at(-1)!.id) + 1);
-} catch (error) {
+} catch {
   // Swallow error if file doesn't exist
 }
 
