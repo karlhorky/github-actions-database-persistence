@@ -6,7 +6,7 @@
   "author": "Karl Horky",
   "type": "module",
   "dependencies": {
-    "better-sqlite3": "10.1.0",
+    "better-sqlite3": "11.0.0",
     "csv": "6.3.9",
     "table": "6.8.2",
     "tsx": "4.11.0"
