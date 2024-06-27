@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   better-sqlite3:
-    specifier: 11.0.0
-    version: 11.0.0
+    specifier: 11.1.1
+    version: 11.1.1
   csv:
     specifier: 6.3.9
     version: 6.3.9
@@ -15,19 +15,19 @@ dependencies:
     specifier: 6.8.2
     version: 6.8.2
   tsx:
-    specifier: 4.15.6
-    version: 4.15.6
+    specifier: 4.15.7
+    version: 4.15.7
 
 devDependencies:
   '@types/better-sqlite3':
     specifier: 7.6.10
     version: 7.6.10
   '@types/node':
-    specifier: 20.14.7
-    version: 20.14.7
+    specifier: 20.14.9
+    version: 20.14.9
   eslint-config-upleveled:
     specifier: 8.3.0
-    version: 8.3.0(@babel/core@7.21.8)(@types/eslint@8.56.10)(@types/node@20.14.7)(@types/react-dom@18.3.0)(@types/react@18.3.3)(eslint-plugin-import@2.29.1)(eslint@9.5.0)(globals@15.6.0)(typescript@5.5.2)
+    version: 8.3.0(@babel/core@7.21.8)(@types/eslint@8.56.10)(@types/node@20.14.9)(@types/react-dom@18.3.0)(@types/react@18.3.3)(eslint-plugin-import@2.29.1)(eslint@9.5.0)(globals@15.6.0)(typescript@5.5.2)
   prettier:
     specifier: 3.3.2
     version: 3.3.2
@@ -628,7 +628,7 @@ packages:
   /@types/better-sqlite3@7.6.10:
     resolution: {integrity: sha512-TZBjD+yOsyrUJGmcUj6OS3JADk3+UZcNv3NOBqGkM09bZdi28fNZw8ODqbMOLfKCu7RYCO62/ldq1iHbzxqoPw==}
     dependencies:
-      '@types/node': 20.14.7
+      '@types/node': 20.14.9
     dev: true
 
   /@types/eslint@8.56.10:
@@ -650,8 +650,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.14.7:
-    resolution: {integrity: sha512-uTr2m2IbJJucF3KUxgnGOZvYbN0QgkGyWxG6973HCpMYFy2KfcgYuIwkJQMQkt1VbBMlvWRbpshFTLxnxCZjKQ==}
+  /@types/node@20.14.9:
+    resolution: {integrity: sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1137,8 +1137,8 @@ packages:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
     dev: false
 
-  /better-sqlite3@11.0.0:
-    resolution: {integrity: sha512-1NnNhmT3EZTsKtofJlMox1jkMxdedILury74PwUbQBjWgo4tL4kf7uTAjU55mgQwjdzqakSTjkf+E1imrFwjnA==}
+  /better-sqlite3@11.1.1:
+    resolution: {integrity: sha512-bAlQQb7gwCgxNpDYafK0O4AaIOiTwA7srfqRtBbw0Nsiq6P+qxEYGl3hLw+9C5jX2FVjKW7oxkSouxlJ+3VX8A==}
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -1688,7 +1688,7 @@ packages:
       parse-gitignore: 2.0.0
     dev: true
 
-  /eslint-config-upleveled@8.3.0(@babel/core@7.21.8)(@types/eslint@8.56.10)(@types/node@20.14.7)(@types/react-dom@18.3.0)(@types/react@18.3.3)(eslint-plugin-import@2.29.1)(eslint@9.5.0)(globals@15.6.0)(typescript@5.5.2):
+  /eslint-config-upleveled@8.3.0(@babel/core@7.21.8)(@types/eslint@8.56.10)(@types/node@20.14.9)(@types/react-dom@18.3.0)(@types/react@18.3.3)(eslint-plugin-import@2.29.1)(eslint@9.5.0)(globals@15.6.0)(typescript@5.5.2):
     resolution: {integrity: sha512-AurH8YU1TX9FiYWck8AoZ92H/RxULwEIbcMT8HCgoxvU8yXXzkf+kj1rLdqKiFA3cxW/LP7beG2Y1kCbUvsY4g==}
     engines: {node: '>=20.9.0'}
     hasBin: true
@@ -1705,7 +1705,7 @@ packages:
       '@eslint/compat': 1.1.0
       '@next/eslint-plugin-next': 14.2.4
       '@types/eslint': 8.56.10
-      '@types/node': 20.14.7
+      '@types/node': 20.14.9
       '@types/react': 18.3.3
       '@types/react-dom': 18.3.0
       '@typescript-eslint/eslint-plugin': 8.0.0-alpha.30(@typescript-eslint/parser@8.0.0-alpha.30)(eslint@9.5.0)(typescript@5.5.2)
@@ -3698,8 +3698,8 @@ packages:
       typescript: 5.5.2
     dev: true
 
-  /tsx@4.15.6:
-    resolution: {integrity: sha512-is0VQQlfNZRHEuSSTKA6m4xw74IU4AizmuB6lAYLRt9XtuyeQnyJYexhNZOPCB59SqC4JzmSzPnHGBXxf3k0hA==}
+  /tsx@4.15.7:
+    resolution: {integrity: sha512-u3H0iSFDZM3za+VxkZ1kywdCeHCn+8/qHQS1MNoO2sONDgD95HlWtt8aB23OzeTmFP9IU4/8bZUdg58Uu5J4cg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
