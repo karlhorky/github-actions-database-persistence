@@ -23,11 +23,11 @@ devDependencies:
     specifier: 7.6.12
     version: 7.6.12
   '@types/node':
-    specifier: 22.10.2
-    version: 22.10.2
+    specifier: 22.10.4
+    version: 22.10.4
   eslint-config-upleveled:
     specifier: 8.12.1
-    version: 8.12.1(@babel/core@7.25.9)(@types/node@22.10.2)(@types/react-dom@18.3.1)(@types/react@18.3.14)(eslint@9.16.0)(globals@15.13.0)(typescript@5.7.2)
+    version: 8.12.1(@babel/core@7.25.9)(@types/node@22.10.4)(@types/react-dom@18.3.1)(@types/react@18.3.14)(eslint@9.16.0)(globals@15.13.0)(typescript@5.7.2)
   prettier:
     specifier: 3.4.2
     version: 3.4.2
@@ -816,7 +816,7 @@ packages:
   /@types/better-sqlite3@7.6.12:
     resolution: {integrity: sha512-fnQmj8lELIj7BSrZQAdBMHEHX8OZLYIHXqAKT1O7tDfLxaINzf00PMjw22r3N/xXh0w/sGHlO6SVaCQ2mj78lg==}
     dependencies:
-      '@types/node': 22.10.2
+      '@types/node': 22.10.4
     dev: true
 
   /@types/estree@1.0.6:
@@ -827,8 +827,8 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@types/node@22.10.2:
-    resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
+  /@types/node@22.10.4:
+    resolution: {integrity: sha512-99l6wv4HEzBQhvaU/UGoeBoCK61SCROQaCCGyQSgX2tEQ3rKkNZ2S7CEWnS/4s1LV+8ODdK21UeyR1fHP2mXug==}
     dependencies:
       undici-types: 6.20.0
     dev: true
@@ -1674,7 +1674,7 @@ packages:
       find-up-simple: 1.0.0
     dev: true
 
-  /eslint-config-upleveled@8.12.1(@babel/core@7.25.9)(@types/node@22.10.2)(@types/react-dom@18.3.1)(@types/react@18.3.14)(eslint@9.16.0)(globals@15.13.0)(typescript@5.7.2):
+  /eslint-config-upleveled@8.12.1(@babel/core@7.25.9)(@types/node@22.10.4)(@types/react-dom@18.3.1)(@types/react@18.3.14)(eslint@9.16.0)(globals@15.13.0)(typescript@5.7.2):
     resolution: {integrity: sha512-yhV6RtUE4hCoXlpScBRwBFhBSAPAKa0gBaFIKTyfscYXAcemSdy8NMOJPCbA4nGl9zcHC0u+fqdYxZAgh9/cdQ==}
     engines: {node: '>=20.9.0'}
     hasBin: true
@@ -1689,7 +1689,7 @@ packages:
       '@babel/eslint-parser': 7.25.9(@babel/core@7.25.9)(eslint@9.16.0)
       '@eslint/compat': 1.2.4(eslint@9.16.0)
       '@next/eslint-plugin-next': 15.0.3
-      '@types/node': 22.10.2
+      '@types/node': 22.10.4
       '@types/react': 18.3.14
       '@types/react-dom': 18.3.1
       '@typescript-eslint/eslint-plugin': 8.17.0(@typescript-eslint/parser@8.17.0)(eslint@9.16.0)(typescript@5.7.2)
