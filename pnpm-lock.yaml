@@ -10,8 +10,8 @@ onlyBuiltDependencies:
 
 dependencies:
   better-sqlite3:
-    specifier: 11.8.1
-    version: 11.8.1
+    specifier: 11.9.1
+    version: 11.9.1
   csv:
     specifier: 6.3.11
     version: 6.3.11
@@ -1093,8 +1093,8 @@ packages:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
     dev: false
 
-  /better-sqlite3@11.8.1:
-    resolution: {integrity: sha512-9BxNaBkblMjhJW8sMRZxnxVTRgbRmssZW0Oxc1MPBTfiR+WW21e2Mk4qu8CzrcZb1LwPCnFsfDEzq+SNcBU8eg==}
+  /better-sqlite3@11.9.1:
+    resolution: {integrity: sha512-Ba0KR+Fzxh2jDRhdg6TSH0SJGzb8C0aBY4hR8w8madIdIzzC6Y1+kx5qR6eS1Z+Gy20h6ZU28aeyg0z1VIrShQ==}
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
