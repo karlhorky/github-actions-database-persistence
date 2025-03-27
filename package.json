@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "@types/better-sqlite3": "7.6.12",
-    "@types/node": "22.13.10",
-    "eslint-config-upleveled": "9.2.1",
+    "@types/node": "22.13.14",
+    "eslint-config-upleveled": "9.2.3",
     "prettier": "3.5.3",
     "typescript": "5.8.2"
   },
