@@ -27,6 +27,9 @@ importers:
       '@types/node':
         specifier: 22.13.14
         version: 22.13.14
+      eslint:
+        specifier: 9.23.0
+        version: 9.23.0
       eslint-config-upleveled:
         specifier: 9.2.3
         version: 9.2.3(@babel/core@7.26.10)(@types/node@22.13.14)(@types/react-dom@19.0.4(@types/react@19.0.12))(@types/react@19.0.12)(eslint@9.23.0)(globals@15.15.0)(typescript@5.8.2)
