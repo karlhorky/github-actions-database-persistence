@@ -9,14 +9,14 @@
     "better-sqlite3": "11.10.0",
     "csv": "6.3.11",
     "table": "6.9.0",
-    "tsx": "4.19.4"
+    "tsx": "4.20.3"
   },
   "devDependencies": {
     "@types/better-sqlite3": "7.6.13",
     "@types/node": "22.15.17",
-    "eslint": "9.26.0",
+    "eslint": "9.30.0",
     "eslint-config-upleveled": "9.2.3",
-    "prettier": "3.5.3",
+    "prettier": "3.6.2",
     "typescript": "5.8.3"
   },
   "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39",
