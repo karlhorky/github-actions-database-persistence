@@ -30,4 +30,4 @@ jobs:
           restore-keys: |
             sqlite-database-
             sqlite-database-${{ github.run_id }}
-      - run: pnpm tsx scripts/updateSqliteDatabaseRecords.ts data/persisted-to-cache/database.db
+      - run: node scripts/updateSqliteDatabaseRecords.ts data/persisted-to-cache/database.db

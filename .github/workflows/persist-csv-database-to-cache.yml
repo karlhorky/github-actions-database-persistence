@@ -26,4 +26,4 @@ jobs:
           restore-keys: |
             csv-database-
             csv-database-${{ github.run_id }}
-      - run: pnpm tsx scripts/updateCsvDatabaseRecords.ts data/persisted-to-cache/database.csv
+      - run: node scripts/updateCsvDatabaseRecords.ts data/persisted-to-cache/database.csv

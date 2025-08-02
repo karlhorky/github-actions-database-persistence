@@ -8,7 +8,7 @@ const filePath = process.argv[2];
 if (!filePath) {
   console.error(`File path missing. Usage:
 
-  $ pnpm tsx scripts/updateSqliteDatabaseRows.ts data/persisted-to-cache/database.db
+  $ node scripts/updateSqliteDatabaseRows.ts data/persisted-to-cache/database.db
 `);
   process.exit(1);
 }

@@ -9,7 +9,7 @@ const filePath = process.argv[2];
 if (!filePath) {
   console.error(`File path missing. Usage:
 
-  $ pnpm tsx scripts/updateCsvDatabaseRecords.ts data/persisted-to-cache/database.csv
+  $ node scripts/updateCsvDatabaseRecords.ts data/persisted-to-cache/database.csv
 `);
   process.exit(1);
 }
