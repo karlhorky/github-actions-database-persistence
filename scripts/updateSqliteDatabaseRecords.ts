@@ -1,7 +1,7 @@
 import process from 'node:process';
 import Database from 'better-sqlite3';
-import { generateUniqueMessage } from '../util/messages.js';
-import { tableFromRecords } from '../util/table.js';
+import { generateUniqueMessage } from '../util/messages.ts';
+import { tableFromRecords } from '../util/table.ts';
 
 const filePath = process.argv[2];
 
