@@ -6,19 +6,19 @@
   "author": "Karl Horky",
   "type": "module",
   "dependencies": {
-    "better-sqlite3": "12.5.0",
+    "better-sqlite3": "12.6.0",
     "csv": "6.4.1",
     "table": "6.9.0"
   },
   "devDependencies": {
     "@types/better-sqlite3": "7.6.13",
-    "@types/node": "25.0.3",
+    "@types/node": "25.0.9",
     "eslint": "9.39.2",
     "eslint-config-upleveled": "9.4.2",
-    "prettier": "3.7.4",
+    "prettier": "3.8.0",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@10.27.0",
+  "packageManager": "pnpm@10.28.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "better-sqlite3",
