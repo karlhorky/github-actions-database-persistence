@@ -7,18 +7,18 @@
   "type": "module",
   "dependencies": {
     "better-sqlite3": "12.8.0",
-    "csv": "6.5.0",
+    "csv": "6.5.1",
     "table": "6.9.0"
   },
   "devDependencies": {
     "@types/better-sqlite3": "7.6.13",
     "@types/node": "25.5.0",
-    "eslint": "10.0.3",
+    "eslint": "10.1.0",
     "eslint-config-upleveled": "10.0.0",
     "prettier": "3.8.1",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@10.32.1",
+  "packageManager": "pnpm@10.33.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "better-sqlite3",
