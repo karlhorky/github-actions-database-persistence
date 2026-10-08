@@ -12,8 +12,8 @@ importers:
         specifier: 12.11.1
         version: 12.11.1
       csv:
-        specifier: 6.6.3
-        version: 6.6.3
+        specifier: 6.6.4
+        version: 6.6.4
       table:
         specifier: 6.9.0
         version: 6.9.0
@@ -22,14 +22,14 @@ importers:
         specifier: 7.6.13
         version: 7.6.13
       '@types/node':
-        specifier: 26.6.2
-        version: 26.6.2
+        specifier: 26.6.3
+        version: 26.6.3
       eslint:
         specifier: 10.11.0
         version: 10.11.0
       eslint-config-upleveled:
         specifier: 10.0.4
-        version: 10.0.4(@types/node@26.6.2)(@types/react-dom@19.0.4(@types/react@19.0.12))(@types/react@19.0.12)(@typescript-eslint/utils@8.69.0(eslint@10.11.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.11.0)(globals@17.11.0)(typescript@6.0.3)
+        version: 10.0.4(@types/node@26.6.3)(@types/react-dom@19.0.4(@types/react@19.0.12))(@types/react@19.0.12)(@typescript-eslint/utils@8.69.0(eslint@10.11.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.11.0)(globals@17.11.0)(typescript@6.0.3)
       prettier:
         specifier: 3.9.9
         version: 3.9.9
@@ -286,8 +286,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@26.6.2':
-    resolution: {integrity: sha512-X1P21scMv4zGKLYqjdGjaKa7COa0RKVYYZZN/NfvLQ1JegxFhdhpZG/Lyn8AXx6CDUavKAd11v6BvfpkDByK8g==}
+  '@types/node@26.6.3':
+    resolution: {integrity: sha512-dsqMQQoeTLqu9wynDD00q573mNzso3IdQOAfHRJqLCcmCFPoGo9A1bDpUcv/9tnKpErQWv9uKeGfl37EIS02Yg==}
 
   '@types/react-dom@19.0.4':
     resolution: {integrity: sha512-4fSQ8vWFkg+TGhePfUzVmat3eC14TXYSsiiDSLI0dVLsrm9gZFABjPy/Qu6TKgl1tq1Bu1yDsuQgY3A3DOjCcg==}
@@ -656,17 +656,17 @@ packages:
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
 
-  csv-generate@4.6.1:
-    resolution: {integrity: sha512-eELl9K716LSSeP2/YcCjch525JztnnERe3jEARWw2v1FN9ukUYfZTNYZ4Rq2Jj/MFKMauffOy9VCaqQTpFThDQ==}
+  csv-generate@4.6.2:
+    resolution: {integrity: sha512-1G69uT4HKxLRL3dH5UlwlEBpHFOh7A9T86XZn6IkCXkb2k5cnk3xhxNpLcYZvoBFpC1SIZTXBPHzNGd16cIp/A==}
 
-  csv-parse@7.0.2:
-    resolution: {integrity: sha512-uKZghv9UmPkMVLYy//KZ9HFAIJsl7wkhoEdIL0+rhuSY9pZQlhaeGEDPIe+/w7eh81MOql8Q/9+inAGWG6ZHYA==}
+  csv-parse@7.0.3:
+    resolution: {integrity: sha512-YFd3QM/yo17vH91L1IOZuvl09zM0zEEtdfTcOCKWcMdM++MNaQSyp09slXyFCLaPXvHstQFx/xC8myiFHSMUvw==}
 
-  csv-stringify@6.8.3:
-    resolution: {integrity: sha512-gIeSCvq5F4VtXV3naV3VAewLhBkiZBz+PPhTOA8H3Y8h/ELa+R1ml0GZck/4/Nzo9ep2lvOluilJ6MJlbZsKMA==}
+  csv-stringify@6.9.0:
+    resolution: {integrity: sha512-6b3e29CILFfSQ2nDRuZMRROzQOpPuJ+s8zPB5H7eK5ncXBbFOyVuRLU5Sx/zAUmVri3Ly49GyC8NEme4SVSAbA==}
 
-  csv@6.6.3:
-    resolution: {integrity: sha512-X2AnOgcxqV+OdLm1M2FOl+bPQrM1LK1jwo4FhEoq8hi8JTR0tQ8ZWv3x3N2gVMIuUmpb4CLrV08rTP49IdFQ8w==}
+  csv@6.6.4:
+    resolution: {integrity: sha512-HeLcw5VphIwHTNKljvINW9IT0stYqgZ/2AIcx5ur8DcArOvRxb4INpgDs008UStv8l7dVVJaCB3twWi59SSouA==}
     engines: {node: '>= 0.1.90'}
 
   damerau-levenshtein@1.0.8:
@@ -1649,8 +1649,8 @@ packages:
     resolution: {integrity: sha512-o3yWv49B/o4QZk5ZcsALc6t0+eCelPc44zZsLtCQnZPDwFpDYSWcDnrv2TtMmMbQ7uKo3J0HTURCqckw23czNQ==}
     engines: {node: '>=12.0.0'}
 
-  stream-transform@3.5.1:
-    resolution: {integrity: sha512-TTDX+qKFr7GGRXATn66rprmlFPx08W0UBIccE/rMPgW2sT7GovduZYP4xcdJ7Nu2YigF17U+CNFxYY11+W1oPw==}
+  stream-transform@3.6.0:
+    resolution: {integrity: sha512-iDtH6HV1MOQ3Ipva+9g/kke1uVLubZlEbGCxbWWlI+Ak++sDRQRxmPZ1iXlmXdLK6kP5fIziUf79GBB7erbppQ==}
 
   string-ts@2.3.1:
     resolution: {integrity: sha512-xSJq+BS52SaFFAVxuStmx6n5aYZU571uYUnUrPXkPFCfdHyZMMlbP2v2Wx5sNBnAVzq/2+0+mcBLBa3Xa5ubYw==}
@@ -2161,7 +2161,7 @@ snapshots:
 
   '@types/better-sqlite3@7.6.13':
     dependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
 
   '@types/esrecurse@4.3.1': {}
 
@@ -2169,7 +2169,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@26.6.2':
+  '@types/node@26.6.3':
     dependencies:
       undici-types: 8.9.0
 
@@ -2534,18 +2534,18 @@ snapshots:
 
   csstype@3.2.3: {}
 
-  csv-generate@4.6.1: {}
+  csv-generate@4.6.2: {}
 
-  csv-parse@7.0.2: {}
+  csv-parse@7.0.3: {}
 
-  csv-stringify@6.8.3: {}
+  csv-stringify@6.9.0: {}
 
-  csv@6.6.3:
+  csv@6.6.4:
     dependencies:
-      csv-generate: 4.6.1
-      csv-parse: 7.0.2
-      csv-stringify: 6.8.3
-      stream-transform: 3.5.1
+      csv-generate: 4.6.2
+      csv-parse: 7.0.3
+      csv-stringify: 6.9.0
+      stream-transform: 3.6.0
 
   damerau-levenshtein@1.0.8: {}
 
@@ -2708,12 +2708,12 @@ snapshots:
       '@eslint/compat': 2.1.1(eslint@10.11.0)
       eslint: 10.11.0
 
-  eslint-config-upleveled@10.0.4(@types/node@26.6.2)(@types/react-dom@19.0.4(@types/react@19.0.12))(@types/react@19.0.12)(@typescript-eslint/utils@8.69.0(eslint@10.11.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.11.0)(globals@17.11.0)(typescript@6.0.3):
+  eslint-config-upleveled@10.0.4(@types/node@26.6.3)(@types/react-dom@19.0.4(@types/react@19.0.12))(@types/react@19.0.12)(@typescript-eslint/utils@8.69.0(eslint@10.11.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.11.0)(globals@17.11.0)(typescript@6.0.3):
     dependencies:
       '@eslint/compat': 2.1.1(eslint@10.11.0)
       '@next/eslint-plugin-next': 16.3.4(eslint@10.11.0)
       '@stylistic/eslint-plugin': 5.10.0(eslint@10.11.0)
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
       '@types/react': 19.0.12
       '@types/react-dom': 19.0.4(@types/react@19.0.12)
       '@typescript-eslint/eslint-plugin': 8.69.0(@typescript-eslint/parser@8.69.0(eslint@10.11.0)(typescript@6.0.3))(eslint@10.11.0)(typescript@6.0.3)
@@ -3715,7 +3715,7 @@ snapshots:
 
   stable-hash-x@0.2.0: {}
 
-  stream-transform@3.5.1: {}
+  stream-transform@3.6.0: {}
 
   string-ts@2.3.1: {}
 
