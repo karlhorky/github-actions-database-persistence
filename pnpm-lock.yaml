@@ -1,3 +1,161 @@
+---
+lockfileVersion: '9.0'
+
+importers:
+
+  .:
+    configDependencies: {}
+    packageManagerDependencies:
+      pnpm:
+        specifier: 12.11.0
+        version: 12.11.0
+
+packages:
+
+  '@pnpm/exe.android-arm64@12.11.0':
+    resolution: {integrity: sha512-iaRous2TG9l3evU4PlfpyHEQYk7FgePfIUd/Duc1Ev2V+xAcN5IgsDRstvMSxa4zo04xtiGKTG06X1RW+knSVw==}
+    cpu: [arm64]
+    os: [android]
+
+  '@pnpm/exe.android-x64@12.11.0':
+    resolution: {integrity: sha512-3SFkB+pF5cdV0KdTUrNvH6Xjp1CJ81w0u4HD5aI5pLWsqOHCi90s78Ja2v9aSnNsONMzJ+TSSEStPRyMQLNh4A==}
+    cpu: [x64]
+    os: [android]
+
+  '@pnpm/exe.darwin-arm64@12.11.0':
+    resolution: {integrity: sha512-xlh3Cuv2s0aTjStWpmO0VVifQSUEn0UPLn/KilQv893OdJ6kjfWReB/hI55OV1ppjO/xPiJ4CoS9KIGz3TdjSw==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@pnpm/exe.darwin-x64@12.11.0':
+    resolution: {integrity: sha512-/nDHVuVK+3gc9MtBi3fKmqWuukp8I6cfi0hLxtBDqJVCWPEhKx7auoH59RLg1WsAKsrULgs8FDHFtJKzscqSGg==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@pnpm/exe.freebsd-x64@12.11.0':
+    resolution: {integrity: sha512-XVkee+Ltk+WujwIhoOYTJrxxjiVvnjJDrjrhkZ4fcB4N6Klw129xEmUWGc5GCqQ5fIP0lQKgi/gERqtTDF76lg==}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@pnpm/exe.linux-arm64-musl@12.11.0':
+    resolution: {integrity: sha512-P/dDOnqFG5t3oR6zBvxZ/19gpGCRTqTzDxY9XYhP56csybJrQ96WTCLh+E5/2VlOCps/Ote7dh127h5Z6fJEOQ==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@pnpm/exe.linux-arm64@12.11.0':
+    resolution: {integrity: sha512-i8pwzaDfiyE6Aq6zOSUSWsUdSUP9aJw648q8HvAAhDCvd2ywYNkop2BvUfC3tcmg7gYt3XuEHNDKbp5FcIKAPg==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@pnpm/exe.linux-ppc64@12.11.0':
+    resolution: {integrity: sha512-J0y8s/0d43yqYs69mu3v4mGS9UczmI99jNOo2XrrFAJw6XUWBSsjwiN6xd6OwiRa/1QP+joooGMUMOMgmSj5/A==}
+    cpu: [ppc64]
+    os: [linux]
+    libc: [glibc]
+
+  '@pnpm/exe.linux-riscv64@12.11.0':
+    resolution: {integrity: sha512-XRJMy9cpSa/WqeQRwJJENBvZNg4o6iOjSlG/Nj3cR8p19367YP0WGDFsMn5QYSwUsQivFvZtQ7AHasGYoKOunA==}
+    cpu: [riscv64]
+    os: [linux]
+    libc: [glibc]
+
+  '@pnpm/exe.linux-s390x@12.11.0':
+    resolution: {integrity: sha512-oN2T6oMjPdav6WOsF0Zr3jh9KvLLUEDnwVy4kgOpWb2decAUhZKxO0bcEG1ozEJVQqe99Y96L8URLo9AYAiopA==}
+    cpu: [s390x]
+    os: [linux]
+    libc: [glibc]
+
+  '@pnpm/exe.linux-x64-musl@12.11.0':
+    resolution: {integrity: sha512-ThGTDSSTlBqsn5LOXrioEoNQXq7UBmiMmGWgThwRaZ4u9q8dEipeqYgXGOuYWuNkHOFr9QpDjgT4Ty2xmnU5ng==}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@pnpm/exe.linux-x64@12.11.0':
+    resolution: {integrity: sha512-H78vY3QwTjPjj45Jke9XC4zcwDTBVVJHjvYbvh36xsG9Lz/UDtzUaHgIc6V3xZd5N4eWVldAETjHWPKe0lWpnQ==}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@pnpm/exe.win32-arm64@12.11.0':
+    resolution: {integrity: sha512-VKMsGYtmRtrqCbwKIJRwebR1qF4ODPqiOMCb5N2+qUHfjp3qdZ7IomSrt8QdwbJYcGe+ZMVcRL80zSbLgSNDLg==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@pnpm/exe.win32-x64@12.11.0':
+    resolution: {integrity: sha512-tCIMq219fSc5xr+sd2ZTFr31sE5Shi9E6kka4VqlxwkwVSarKrhzMiArqaofcSDuUyPwHmjFfXmgE7cNee46kw==}
+    cpu: [x64]
+    os: [win32]
+
+  pnpm@12.11.0:
+    resolution: {integrity: sha512-Kcy01B+twbOJBgyn4FuzABLKBLHRUCx1vAkwQh6ibYz7lKZ04YwA3E6BzAZhqxDTDQJZvr0SK8wEz/ahL2gs+w==}
+    engines: {node: '>=18.*'}
+    hasBin: true
+
+snapshots:
+
+  '@pnpm/exe.android-arm64@12.11.0':
+    optional: true
+
+  '@pnpm/exe.android-x64@12.11.0':
+    optional: true
+
+  '@pnpm/exe.darwin-arm64@12.11.0':
+    optional: true
+
+  '@pnpm/exe.darwin-x64@12.11.0':
+    optional: true
+
+  '@pnpm/exe.freebsd-x64@12.11.0':
+    optional: true
+
+  '@pnpm/exe.linux-arm64-musl@12.11.0':
+    optional: true
+
+  '@pnpm/exe.linux-arm64@12.11.0':
+    optional: true
+
+  '@pnpm/exe.linux-ppc64@12.11.0':
+    optional: true
+
+  '@pnpm/exe.linux-riscv64@12.11.0':
+    optional: true
+
+  '@pnpm/exe.linux-s390x@12.11.0':
+    optional: true
+
+  '@pnpm/exe.linux-x64-musl@12.11.0':
+    optional: true
+
+  '@pnpm/exe.linux-x64@12.11.0':
+    optional: true
+
+  '@pnpm/exe.win32-arm64@12.11.0':
+    optional: true
+
+  '@pnpm/exe.win32-x64@12.11.0':
+    optional: true
+
+  pnpm@12.11.0:
+    optionalDependencies:
+      '@pnpm/exe.android-arm64': 12.11.0
+      '@pnpm/exe.android-x64': 12.11.0
+      '@pnpm/exe.darwin-arm64': 12.11.0
+      '@pnpm/exe.darwin-x64': 12.11.0
+      '@pnpm/exe.freebsd-x64': 12.11.0
+      '@pnpm/exe.linux-arm64': 12.11.0
+      '@pnpm/exe.linux-arm64-musl': 12.11.0
+      '@pnpm/exe.linux-ppc64': 12.11.0
+      '@pnpm/exe.linux-riscv64': 12.11.0
+      '@pnpm/exe.linux-s390x': 12.11.0
+      '@pnpm/exe.linux-x64': 12.11.0
+      '@pnpm/exe.linux-x64-musl': 12.11.0
+      '@pnpm/exe.win32-arm64': 12.11.0
+      '@pnpm/exe.win32-x64': 12.11.0
+
+---
 lockfileVersion: '9.0'
 
 settings:
@@ -29,7 +187,7 @@ importers:
         version: 10.12.0
       eslint-config-upleveled:
         specifier: 10.0.4
-        version: 10.0.4(@types/node@26.6.4)(@types/react-dom@19.0.4(@types/react@19.0.12))(@types/react@19.0.12)(@typescript-eslint/utils@8.69.0(eslint@10.12.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.12.0)(globals@17.11.0)(typescript@6.0.3)
+        version: 10.0.4(@types/node@26.6.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(@typescript-eslint/utils@8.69.0(eslint@10.12.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.12.0)(globals@17.13.0)(typescript@6.0.3)
       prettier:
         specifier: 3.9.9
         version: 3.9.9
@@ -289,13 +447,13 @@ packages:
   '@types/node@26.6.4':
     resolution: {integrity: sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg==}
 
-  '@types/react-dom@19.0.4':
-    resolution: {integrity: sha512-4fSQ8vWFkg+TGhePfUzVmat3eC14TXYSsiiDSLI0dVLsrm9gZFABjPy/Qu6TKgl1tq1Bu1yDsuQgY3A3DOjCcg==}
+  '@types/react-dom@19.3.0':
+    resolution: {integrity: sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==}
     peerDependencies:
-      '@types/react': ^19.0.0
+      '@types/react': ^19.3.0
 
-  '@types/react@19.0.12':
-    resolution: {integrity: sha512-V6Ar115dBDrjbtXSrS+/Oruobc+qVbbUxDFC1RSbRqLt5SYvxxyIDrSC85RWml54g+jfNeEMZhEj7wW07ONQhA==}
+  '@types/react@19.3.0':
+    resolution: {integrity: sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==}
 
   '@typescript-eslint/eslint-plugin@8.69.0':
     resolution: {integrity: sha512-t5jQTKPIgVW1PE6dR6H6Qz5gm8zjMlX5/2gRaOGd9eO6V7J+tQc6iWKukEe7dY8u9HyYasQ0yfF0/FSSTEO2gA==}
@@ -1067,6 +1225,10 @@ packages:
 
   globals@17.11.0:
     resolution: {integrity: sha512-Z2I8hM+PbJDXQDq3Icgpzv+mPdwr68iZUU9d5WW4FuXfDUQfkZaZuvjMv42/5crNyw154+9+VWXbYrUgDXbxNw==}
+    engines: {node: '>=18'}
+
+  globals@17.13.0:
+    resolution: {integrity: sha512-RwMTC61u7hrG3ZJMkZQOK4JLJrKS8QtoTii63EmWvFXHqycY9FObBJQCbsLxSO8kjKhWE5kV1GC+Vb1g3RI0Zg==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -2173,11 +2335,11 @@ snapshots:
     dependencies:
       undici-types: 8.9.0
 
-  '@types/react-dom@19.0.4(@types/react@19.0.12)':
+  '@types/react-dom@19.3.0(@types/react@19.3.0)':
     dependencies:
-      '@types/react': 19.0.12
+      '@types/react': 19.3.0
 
-  '@types/react@19.0.12':
+  '@types/react@19.3.0':
     dependencies:
       csstype: 3.2.3
 
@@ -2708,14 +2870,14 @@ snapshots:
       '@eslint/compat': 2.1.1(eslint@10.12.0)
       eslint: 10.12.0
 
-  eslint-config-upleveled@10.0.4(@types/node@26.6.4)(@types/react-dom@19.0.4(@types/react@19.0.12))(@types/react@19.0.12)(@typescript-eslint/utils@8.69.0(eslint@10.12.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.12.0)(globals@17.11.0)(typescript@6.0.3):
+  eslint-config-upleveled@10.0.4(@types/node@26.6.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(@typescript-eslint/utils@8.69.0(eslint@10.12.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.12.0)(globals@17.13.0)(typescript@6.0.3):
     dependencies:
       '@eslint/compat': 2.1.1(eslint@10.12.0)
       '@next/eslint-plugin-next': 16.3.4(eslint@10.12.0)
       '@stylistic/eslint-plugin': 5.10.0(eslint@10.12.0)
       '@types/node': 26.6.4
-      '@types/react': 19.0.12
-      '@types/react-dom': 19.0.4(@types/react@19.0.12)
+      '@types/react': 19.3.0
+      '@types/react-dom': 19.3.0(@types/react@19.3.0)
       '@typescript-eslint/eslint-plugin': 8.69.0(@typescript-eslint/parser@8.69.0(eslint@10.12.0)(typescript@6.0.3))(eslint@10.12.0)(typescript@6.0.3)
       '@typescript-eslint/parser': 8.69.0(eslint@10.12.0)(typescript@6.0.3)
       comment-json: 5.0.0
@@ -2732,7 +2894,7 @@ snapshots:
       eslint-plugin-sonarjs: 4.2.0(eslint@10.12.0)
       eslint-plugin-unicorn: 74.0.0(eslint@10.12.0)
       eslint-plugin-upleveled: 2.1.15(eslint@10.12.0)
-      globals: 17.11.0
+      globals: 17.13.0
       is-plain-obj: 4.1.0
       sort-package-json: 4.0.0
       strip-json-comments: 5.0.3
@@ -3119,6 +3281,8 @@ snapshots:
       is-glob: 4.0.3
 
   globals@17.11.0: {}
+
+  globals@17.13.0: {}
 
   globalthis@1.0.4:
     dependencies:

@@ -1,0 +1,16 @@
+# Allow build scripts for trusted dependencies
+# - https://pnpm.io/settings#allowbuilds
+allowBuilds:
+  better-sqlite3: true
+  esbuild: true
+  unrs-resolver: false
+
+# Prevent installation of packages newer than 7 days
+# to mitigate supply chain risks
+# - https://pnpm.io/settings#minimumreleaseage
+minimumReleaseAge: 10080
+minimumReleaseAgeExclude:
+  - '@upleveled/*'
+  - eslint-config-upleveled
+  - eslint-plugin-upleveled
+  - stylelint-config-upleveled
