@@ -9,6 +9,9 @@ jobs:
     name: Dependabot Alert Bridge - Apply Security Updates
     runs-on: ubuntu-latest
     if: ${{ github.event.client_payload.ecosystem == 'npm' && github.event.client_payload.dependencies && github.event.client_payload.dependencies[0] }}
+    # One run at a time per package, so alerts arriving together don't race on the same branch
+    concurrency:
+      group: dependabot-alert-bridge-${{ join(github.event.client_payload.dependencies, '+') }}
 
     steps:
       - uses: actions/checkout@v7
@@ -29,7 +32,7 @@ jobs:
       - uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.DEPENDABOT_ALERT_BRIDGE_PR_TOKEN }}
-          branch: dependabot-alert-${{ github.event.client_payload.alert_number }}
+          branch: dependabot-alert-bridge/${{ join(github.event.client_payload.dependencies, '+') }}
           title: "Update ${{ join(github.event.client_payload.dependencies, ', ') }} [SECURITY]"
           body: |
             This PR updates dependencies from a `dependabot_alert` webhook.
