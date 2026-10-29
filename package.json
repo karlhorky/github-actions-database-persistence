@@ -13,10 +13,10 @@
   "devDependencies": {
     "@types/better-sqlite3": "7.6.13",
     "@types/node": "26.6.5",
-    "eslint": "10.12.0",
-    "eslint-config-upleveled": "11.0.1",
+    "eslint": "10.13.0",
+    "eslint-config-upleveled": "11.0.2",
     "prettier": "3.9.10",
     "typescript": "6.0.3"
   },
-  "packageManager": "pnpm@12.14.0"
+  "packageManager": "pnpm@12.15.0"
 }
