@@ -1484,8 +1484,8 @@ packages:
     engines: {node: '>=22'}
     hasBin: true
 
-  source-map-js@1.2.1:
-    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
+  source-map-js@1.2.2:
+    resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
     engines: {node: '>=0.10.0'}
 
   stable-hash-x@0.2.0:
@@ -1853,7 +1853,7 @@ snapshots:
   '@eslint/css-tree@4.1.2':
     dependencies:
       mdn-data: 2.37.2
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@eslint/object-schema@3.0.5': {}
 
@@ -3032,7 +3032,7 @@ snapshots:
       sort-object-keys: 2.1.0
       tinyglobby: 0.2.15
 
-  source-map-js@1.2.1: {}
+  source-map-js@1.2.2: {}
 
   stable-hash-x@0.2.0: {}
 
