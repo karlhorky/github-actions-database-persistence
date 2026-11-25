@@ -11,7 +11,7 @@
     "table": "6.10.1"
   },
   "devDependencies": {
-    "@types/better-sqlite3": "7.6.13",
+    "@types/better-sqlite3": "9.6.0",
     "@types/node": "26.6.6",
     "eslint": "10.14.0",
     "eslint-config-upleveled": "11.0.3",
